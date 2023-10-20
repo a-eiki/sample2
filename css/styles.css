@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 16px 0 0;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+  line-height: 34px;
+}
+
+.container {
+  display: flex;
+  margin: 32px auto 0;
+  width: calc(100% - 64px);
+}
+
+.circle {
+  border: 1px solid green;
+  width: 100px;
+  height: 100px;
+  background: green;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  transform: rotate(-25deg);
+}
+
+.image {
+  position: relative;
+  margin-top: 100px;
+}
+
+.main {
+  max-width: 350px;
+  flex: 1;
+  padding-left: 48px;
+}
+
+.box {
+  margin-top: 16px;
+}
+
+.button {
+  background: #00CC00;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  padding: 8px 56px;
+  border-radius: 10px;
+  margin: 16px 0;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: .7;
+}
+
+small {
+  display:inline-block;
+  color: #999999;
+}
+
+small + small {
+  margin-top: 16px;
+}
+
+.sns {
+  margin-top:32px;
+}
+
+
+.twitter {
+  font-size: 12px;
+  background: #1da1f2;
+  color: white;
+  padding: 4px 16px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.facebook {
+  font-size: 12px;
+  background: #1877f2;
+  color: white;
+  padding: 4px 16px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.line {
+  font-size: 12px;
+  background: #00c300;
+  color: white;
+  padding: 4px 16px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.twitter:hover
+,
+.facebook:hover
+,
+.line:hover{
+  opacity: .7;
+  cursor: pointer;
+}
